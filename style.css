@@ -6,11 +6,7 @@
     scroll-behavior: smooth;
 }
 
-body{
-background-color: rgb(255, 255, 255);
-display: flex;
-flex-direction: column;
-}
+
 header{
     position: fixed;
     top: 0;
@@ -36,7 +32,7 @@ header{
     height: 80px;
     z-index: 1000;
     img{
-        height: 100%;
+        width: 150px;
     }
 }
 
@@ -111,7 +107,7 @@ header{
     gap: 50px;
     background-size: cover;
     width: 100%;
-    height: 850px;
+    height: 100vh;
     overflow: hidden;
     img{
         width: 100%;
@@ -122,9 +118,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
-        position: absolute;
-        top: 350px;
+        text-align: center;
         max-width: 80%;
     }
 }
@@ -138,6 +132,7 @@ header{
     gap: 50px;
     background-size: cover;
     width: 100%;
+    height: 100vh;
     margin-top: 100px;
     span{
         font-size: 2em;
@@ -155,7 +150,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    gap: 100px;
 }
 
 .cardprodutos{
@@ -164,11 +159,11 @@ header{
     width: 100%;
     height:100%;
     align-items: center;
-    max-width: 300px;
+    max-width: 250px;
     gap: 30px;
 
     img{
-        width: 300px;
+        width: 250px;
         border-radius: 20px;
     }
     span{
